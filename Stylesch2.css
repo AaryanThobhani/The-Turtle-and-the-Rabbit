@@ -5,7 +5,7 @@ html {
 
 p {
     font-size: 28px;
-    font-family: 'Times New Roman', 'Times', 'Serif';
+    font-family: 'Arial', 'Times', 'Serif';
     text-align: center;
     color: white;
 }
@@ -27,7 +27,7 @@ a {
   }
   
   .previous {
-    background-color: #b12f2f;
+    background-color: #f1f1f1;
     color: black;
   }
   
@@ -60,4 +60,15 @@ a {
 
 h1 {
   color: white;
+}
+
+buttons {
+  background-color: #f1f1f1;
+    color: red;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    position: absolute;
+    left: 400px;
+    bottom: -240px;
 }

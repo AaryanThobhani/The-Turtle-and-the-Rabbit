@@ -1,34 +1,25 @@
 p {
-    font-size: 28px;
+    font-size: 24px;
     font-family: 'Arial', 'Times', 'Serif';
-    
+    line-height: 1.8;
     color: white;
     
 }
+
 html {
     height: 100%;
-    background: linear-gradient(#3f5bfb, #fc466b);
+    background: linear-gradient(#ad5389,#3c1053);
 }
 
-
-
-#images {
-    text-align: center;
-    margin: auto;
-    display:flow-root;
-}
-
-
-#thetrack {
-    color: white;
-}
-
-#ch1 {
-    color: white;
-}
-
-#ch2 {
-    color: white;
+buttons {
+  background-color: #f1f1f1;
+    color: red;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    position: absolute;
+    left: 400px;
+    bottom: -240px;
 }
 
 a {
@@ -52,23 +43,18 @@ a {
     color: white;
   }
   
-  .round {
+.round {
     border-radius: 50%;
   }
 
 .next {
     position: absolute;
-    right: -20px;
+    right: 10px;
     bottom: -240px;
 }
 
-buttons {
-  background-color: #f1f1f1;
-    color: red;
-    text-decoration: none;
-    display: inline-block;
-    padding: 8px 16px;
+.previous {
     position: absolute;
-    left: 400px;
+    left: 10px;
     bottom: -240px;
 }
